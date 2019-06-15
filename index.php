@@ -6,7 +6,7 @@
 <body>
 	<form method="POST" action="sayhello.php">
 		Имя:
-		<input type="text" name="user">
-		<br>
-		<input type="submit" value="Отправить">
-	</form></body></html>
+		<input type="text" name="user"><br>
+		<input type="submit"value="Отправить">
+	</form>
+</body></html>
