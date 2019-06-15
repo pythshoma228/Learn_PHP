@@ -1,3 +1,5 @@
+<?php 
+print <<<_HTML_
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,8 +7,11 @@
 </head>
 <body>
 <form method="POST" action="sayhello.php">
-	Имя:
-	<input type="text" name="user"><br>
-	<input type="submit"value="Отправить">
+		Имя:
+		<input type="text" name="user"><br>
+		<input type="submit"value="Отправить">
 	</form>
-</body></html>
+	</body>
+</html>
+_HTML_;
+?>
